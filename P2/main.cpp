@@ -198,18 +198,14 @@ void Update() {
     float xdist1 = fabs(player1_position[0] - ball_position[0]) - ((ball_width + player_width) / 2.0f);
     float ydist1 = fabs(player1_position[1] - ball_position[1]) - ((ball_height + player_height) / 2.0f);
 
-    if (player2_position[0] > ball_position[0] + ball_width / 2.0f) {
-        if (xdist < 0 && ydist < 0) {
-            ball_movement[0] *= -1;
-            ball_speed += .01;
-        }
+    if (xdist < 0 && ydist < 0) {
+        ball_movement[0] *= -1;
+        ball_speed += .01;
     }
 
-    if (player1_position[0] < ball_position[0] - ball_width / 2.0f) {
-        if (xdist1 < 0 && ydist1 < 0) {
-            ball_movement[0] *= -1;
-            ball_speed += .01;
-        }
+    if (xdist1 < 0 && ydist1 < 0) {
+        ball_movement[0] *= -1;
+        ball_speed += .01;
     }
 
     if (ball_position[1] > 3.5) {
