@@ -1,4 +1,4 @@
 ﻿  main.cpp
-C:\Users\kevin\Documents\CSUY3113\P2\main.cpp(204,26): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Users\kevin\Documents\CSUY3113\P2\main.cpp(211,26): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\kevin\Documents\CSUY3113\P2\main.cpp(203,26): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\kevin\Documents\CSUY3113\P2\main.cpp(208,26): warning C4305: '+=': truncation from 'double' to 'float'
   p2.vcxproj -> C:\Users\kevin\Documents\CSUY3113\P2\Debug\p2.exe
