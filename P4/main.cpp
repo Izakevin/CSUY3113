@@ -225,9 +225,9 @@ void Initialize() {
     state.enemy[0].width = 0.6f;
     
     state.enemy[1].textureID = enemyTextureID;
-    state.enemy[1].position = glm::vec3(4, -2.25f, 0);
+    state.enemy[1].position = glm::vec3(4.4, -2.25f, 0);
     state.enemy[1].entityType = ENEMY;
-    state.enemy[1].speed = 1;
+    state.enemy[1].speed = .8;
     state.enemy[1].movement = glm::vec3(1, 0, 0);
     state.enemy[1].aiType = CHASER;
     state.enemy[1].aiState = FOLLOW;

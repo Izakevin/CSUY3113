@@ -33,7 +33,7 @@ bool Entity::CheckCollision(Entity* other) {
 void Entity::CheckCollisionsY(Entity* objects, int objectCount) {
     for (int i = 0; i < objectCount; i++){
         Entity* object = &objects[i];
-        if (object->entityType == ENEMY) return;
+        //if (object->entityType == ENEMY) return;
         if (CheckCollision(object)){
             float ydist = fabs(position.y - object->position.y);
             float penetrationY = fabs(ydist - (height / 2.0f) - (object->height / 2.0f));
@@ -76,7 +76,7 @@ void Entity::CheckEnemyY(Entity* objects, int objectCount) {
         Entity* object = &objects[i];
         if (CheckCollision(object)) {
             collidedwith = object;
-            if ( position.y > object->position.y) {
+            if (position.y > object->position.y) {
                 collidedBottom = true;
                 lastCollision = object->entityType;
             }
