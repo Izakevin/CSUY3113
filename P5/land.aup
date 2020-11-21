@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="land_data" version="1.3.0" audacityversion="2.4.2" sel0="0.1462109030" sel1="0.1462109030" vpos="0" h="0.0000000000" zoom="1402.0842211289" rate="48000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="TITLE" value="Jump impact 1"/>
+		<tag name="ALBUM" value="Curiosity Kills"/>
+		<tag name="YEAR" value="2018"/>
+		<tag name="ARTIST" value="Kieran Keegan"/>
+		<tag name="GENRE" value="Movement SFX"/>
+	</tags>
+	<wavetrack name="land" isSelected="1" height="150" minimized="0" channel="0" linked="1" mute="0" solo="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="12051">
+				<waveblock start="0">
+					<simpleblockfile filename="e08081b6.au" len="12051" min="-0.493134" max="0.49942" rms="0.087388"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="land" isSelected="1" height="150" minimized="0" channel="1" linked="0" mute="0" solo="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="12051">
+				<waveblock start="0">
+					<simpleblockfile filename="e08081a9.au" len="12051" min="-0.495667" max="0.50119" rms="0.07409"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

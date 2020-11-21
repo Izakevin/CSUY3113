@@ -1,0 +1,9 @@
+﻿  Level1.cpp
+C:\Users\kevin\Documents\CSUY3113\P5\Level1.cpp(80,30): warning C4305: '=': truncation from 'double' to 'float'
+  Level2.cpp
+C:\Users\kevin\Documents\CSUY3113\P5\Level2.cpp(76,30): warning C4305: '=': truncation from 'double' to 'float'
+  Level3.cpp
+C:\Users\kevin\Documents\CSUY3113\P5\Level3.cpp(76,30): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\kevin\Documents\CSUY3113\P5\Level3.cpp(100,30): warning C4305: '=': truncation from 'double' to 'float'
+  Generating Code...
+  P5.vcxproj -> C:\Users\kevin\Documents\CSUY3113\P5\Debug\P5.exe
