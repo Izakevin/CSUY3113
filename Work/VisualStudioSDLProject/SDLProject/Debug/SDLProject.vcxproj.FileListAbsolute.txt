@@ -1,4 +1,0 @@
-C:\Users\kevin\OneDrive\Desktop\CS3113-master\Templates\VisualStudioSDLProject\SDLProject\Debug\SDLProject.exe
-C:\Users\kevin\OneDrive\Desktop\CS3113-master\Templates\VisualStudioSDLProject\SDLProject\Debug\SDLProject.pdb
-C:\Users\kevin\Documents\CSUY3113\Work\VisualStudioSDLProject\SDLProject\Debug\SDLProject.exe
-C:\Users\kevin\Documents\CSUY3113\Work\VisualStudioSDLProject\SDLProject\Debug\SDLProject.pdb

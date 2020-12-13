@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{ffe395aa-64c6-4b11-bf2b-f0c1e8d46ed5}</ProjectGuid>
+    <ProjectGuid>{5b7f8f27-76be-4718-81c0-16399dbc525c}</ProjectGuid>
     <RootNamespace>P6</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -127,11 +127,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="Gameover.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Scene.cpp" />
     <ClCompile Include="ShaderProgram.cpp" />
+    <ClCompile Include="Util.cpp" />
+    <ClCompile Include="Win.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="Gameover.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Scene.h" />
     <ClInclude Include="ShaderProgram.h" />
+    <ClInclude Include="Util.h" />
+    <ClInclude Include="Win.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
